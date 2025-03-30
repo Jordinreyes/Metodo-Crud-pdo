@@ -62,6 +62,8 @@
     <title>Form post</title>
 </head>
 <body>
+    <?php require_once "../navbar/navbar.php"?>
+    
     <form action="" method="post">
         <h1 style='color:#48e'>Add new</h1>
 

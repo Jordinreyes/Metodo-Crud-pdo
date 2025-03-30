@@ -34,6 +34,8 @@
     <title>Delete</title>
 </head>
 <body>
+    <?php require_once "../navbar/navbar.php"?>
+    
     <h1 style='color:#f00'>Form to delete the news </h1>
     <table border="1">
         <tr>
