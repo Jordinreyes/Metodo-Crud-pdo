@@ -65,10 +65,9 @@ class Post
             }else{
                 throw new Exception("No se ha podido insertar en la base de datos");
             }
-        }catch(Exception $e){
+        }catch(ExcePDOExceptionption $e){
             return $e->GetMessage();
         }finally{
-            // $stmt->close();
             $this->conexion=null;
         }
     }
