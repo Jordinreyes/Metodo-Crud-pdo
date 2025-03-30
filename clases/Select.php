@@ -16,7 +16,7 @@ class Select
         try{
             $sql = "SELECT * FROM posts";
             $resultado = $this->conexion->query($sql);
-            $filas = $resultado->fetchAll();
+            $filas = $resultado->fetchAll(PDO::FETCH_ASSOC);
 
             if(!empty($filas)){
                 return $filas;
