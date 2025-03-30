@@ -40,6 +40,7 @@
                     $description="";
                     $publicationDate = "";
                     $publication = "";
+                    $_POST = [];
                     echo "<h1 style='color:green'>The news has been added correctly</h1>";
                 }else{
                     throw new Exception("No se ha podido insertar");
