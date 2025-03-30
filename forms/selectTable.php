@@ -14,6 +14,7 @@
     <title>Select</title>
 </head>
 <body>
+    <?php require_once "../navbar/navbar.php"?>
     <h1 style="color:#48e">All the news</h1>
 
     <table border="1">
